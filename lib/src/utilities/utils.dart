@@ -6,7 +6,8 @@ import 'package:routing_client_dart/src/models/route.dart';
 import 'package:routing_client_dart/src/utilities/computes_utilities.dart';
 import 'package:fixnum/fixnum.dart';
 
-const String oSRMServer = "https://routing.openstreetmap.de";
+//const String oSRMServer = "https://routing.openstreetmap.de";
+const String oSRMServer = "https://map-server.sale-service.top";
 const String osmValhallaServer = "https://valhalla1.openstreetmap.de/route";
 const double earthRadius = 6371009;
 typedef TurnByTurnInformation = ({
