@@ -1,5 +1,5 @@
-import 'package:routing_client_dart/src/utilities/utils.dart';
-import 'package:routing_client_dart/src/utilities/valhalla_utilities.dart';
+import '../../../routing_client_dart.dart';
+import '../../utilities/valhalla_utilities.dart';
 
 enum AutomobileCostingOption { auto, taxi, bus }
 

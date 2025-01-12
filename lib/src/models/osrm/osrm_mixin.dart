@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:routing_client_dart/routing_client_dart.dart';
-import 'package:routing_client_dart/src/models/osrm/road.dart';
-import 'package:routing_client_dart/src/models/osrm/road_helper.dart';
+
+import 'road_helper.dart';
+import '../../../routing_client_dart.dart';
+import 'road.dart';
 
 /// [OSRMHelper]
 ///

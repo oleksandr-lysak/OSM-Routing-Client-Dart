@@ -1,8 +1,8 @@
-import 'package:routing_client_dart/routing_client_dart.dart';
-import 'package:routing_client_dart/src/models/valhalla/costing.dart';
-import 'package:routing_client_dart/src/models/valhalla/costing_option.dart';
-import 'package:routing_client_dart/src/utilities/utils.dart';
-import 'package:routing_client_dart/src/utilities/valhalla_utilities.dart';
+import '../../routing_client_dart.dart';
+import '../utilities/utils.dart';
+import '../utilities/valhalla_utilities.dart';
+import 'valhalla/costing.dart';
+import 'valhalla/costing_option.dart';
 
 enum HeaderServiceType { osrm, openroute, valhalla }
 

@@ -1,7 +1,5 @@
-import 'package:routing_client_dart/src/models/lng_lat.dart';
-import 'package:routing_client_dart/src/models/osrm/road_helper.dart';
-import 'package:routing_client_dart/src/models/route.dart';
-import 'package:routing_client_dart/src/utilities/utils.dart';
+import '../../../routing_client_dart.dart';
+import 'road_helper.dart';
 
 /// [OSRMRoad]
 class OSRMRoad extends Route {

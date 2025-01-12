@@ -1,4 +1,4 @@
-import 'package:routing_client_dart/src/models/lng_lat.dart';
+import '../../routing_client_dart.dart';
 
 class Route {
   /// this attribute is the  distance of the route in km

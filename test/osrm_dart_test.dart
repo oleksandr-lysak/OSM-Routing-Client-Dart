@@ -11,6 +11,9 @@ import 'package:routing_client_dart/src/routing_manager.dart';
 import 'package:routing_client_dart/src/utilities/computes_utilities.dart';
 import 'package:routing_client_dart/src/utilities/utils.dart';
 
+import '../lib/routing_client_dart.dart';
+import '../lib/src/models/osrm/osrm_mixin.dart';
+import '../lib/src/models/osrm/road.dart';
 import 'response_data_osrm.dart';
 
 class FakeOSRMMixin with OSRMHelper {}

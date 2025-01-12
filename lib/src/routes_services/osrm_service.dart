@@ -1,10 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:routing_client_dart/src/models/osrm/osrm_mixin.dart';
-import 'package:routing_client_dart/src/models/request_helper.dart';
-import 'package:routing_client_dart/src/models/osrm/road.dart';
-import 'package:routing_client_dart/src/routes_services/routing_service.dart';
-import 'package:routing_client_dart/src/utilities/computes_utilities.dart';
-import 'package:routing_client_dart/src/utilities/utils.dart';
+
+import '../../routing_client_dart.dart';
+import '../models/osrm/osrm_mixin.dart';
+import '../utilities/computes_utilities.dart';
 
 class OSRMRoutingService extends RoutingService with OSRMHelper {
   OSRMRoutingService({
@@ -47,6 +45,10 @@ class OSRMRoutingService extends RoutingService with OSRMHelper {
                 langCode: message.request.languages.code,
               ),
             ),
+          // TODO: Handle this case.
+          Object() => throw UnimplementedError(),
+          // TODO: Handle this case.
+          null => throw UnimplementedError(),
         };
         final instructions = OSRMHelper.buildInstructions(
           road: route,
